@@ -6,6 +6,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
 a {
@@ -47,7 +48,6 @@ header li {
 }
 
 article {
-  padding-top: 69px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,7 +56,15 @@ article {
 
 section {
   display: inline-flex;
-  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+h2,
+h4 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin: 0;
 }
 
 #mission {
@@ -72,10 +80,6 @@ section {
 #mission h4 {
   background-color: black;
   width: 1200px;
-  margin: 0;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 5px;
 }
 
 #featured {
@@ -84,13 +88,9 @@ section {
   justify-content: center;
 }
 
-.header h2,
-.header h4 {
+#featured .header h2,
+#featured .header h4 {
   width: 1000px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 15px;
-  margin: 0;
 }
 
 .rectangle {
@@ -101,4 +101,40 @@ section {
   text-align: center;
   padding-top: 10px;
   margin: 0;
+}
+
+#locations {
+  width: 1200px;
+  height: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/img-locations-background.jpg");
+}
+
+#locations .header h2 {
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+}
+
+.adresses {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 1;
+  margin : 15px 40px;
+}
+
+#copyright {
+  text-align: left;
+  padding-left: 20px;
 }
