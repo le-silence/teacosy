@@ -56,6 +56,7 @@ article {
 
 section {
   display: inline-flex;
+  margin-bottom: 70px;
 }
 
 #mission {
@@ -67,12 +68,37 @@ section {
   background-image: url("./images/img-mission-background.jpg");
 }
 
-h2,
-h4 {
+#mission h2,
+#mission h4 {
   background-color: black;
   width: 1200px;
   margin: 0;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 5px;
+}
+
+#featured {
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header h2,
+.header h4 {
+  width: 1000px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.rectangle {
+  padding: 16px 10px;
+}
+
+.rectangle h4 {
+  text-align: center;
+  padding-top: 10px;
+  margin: 0;
 }
